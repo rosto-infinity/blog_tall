@@ -74,7 +74,7 @@ new #[Layout('components.layouts.auth')] class extends Component {
             viewable
         />
 
-        <!-- Confirm Password -->
+        <!-- ---Confirm Password -->
         <flux:input
             wire:model="password_confirmation"
             :label="__('Confirm password')"
